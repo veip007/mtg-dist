@@ -145,7 +145,7 @@ if [[ -f /etc/mtg.toml ]]; then
 fi
 
 PORT=$(shuf -i 2000-65000 -n1)
-FAKEDOMAIN=hostupdate.vmware.com
+FAKEDOMAIN=bing.ioliu.cn
 green "=================================================="
 yellow "> Input service PORT, or press Enter to use a random port"
 PORT=$(DEFINPUT $PORT)
